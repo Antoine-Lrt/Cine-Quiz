@@ -1,6 +1,6 @@
 import { StyleSheet, View, ImageBackground} from 'react-native'
 import React from 'react'
-import Button from '../components/atoms/Button'
+import ButtonHome from '../components/atoms/ButtonHome'
 
 
 
@@ -20,8 +20,8 @@ const Home = () => {
     <View style={styles.homeContainer}>
 
     
-        <Button 
-          screenName={'Wheel'}
+        <ButtonHome 
+          screenName={'Quiz'}
         />
 
     </View>

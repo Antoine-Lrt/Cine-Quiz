@@ -1,18 +1,14 @@
 import React  from 'react'
+import axios from 'axios'
 import { useEffect, useState } from 'react'
 import { StyleSheet, Text, View, TouchableOpacity, ImageBackground } from 'react-native'
-import axios from 'axios'
-
+import Questions from '../components/atoms/Questions'
+import Responses from '../components/molecules/Responses'
 
 
 const Quiz = ({navigation}) => {
 
-    const [questions, setQuestion] = useState([])
-
     
-    useEffect(()=>{
-      axios.get('https://opentdb.com/api.php?amount=10&category=11&type=multiple').then((res) => setQuestion(res.data));
-    }, [])
   return (
     
         <ImageBackground style={ styles.imgBackground } 
@@ -22,30 +18,14 @@ const Quiz = ({navigation}) => {
 
       <View style={styles.quizzContainer}>
 
-
-
-
-
-      <View style={styles.quizzQuestion}>
-        <Text> Question 1</Text>
-      </View>
-      <View style={styles.quizzResponses}>
-        <TouchableOpacity>
-          <Text> Respons 1</Text>
-        </TouchableOpacity>
-        <TouchableOpacity>
-          <Text> Respons 1</Text>
-        </TouchableOpacity>
-        <TouchableOpacity>
-          <Text> Respons 1</Text>
-        </TouchableOpacity>
-        <TouchableOpacity>
-          <Text> Respons 1</Text>
-        </TouchableOpacity>
-      </View>
+      
+          <Questions />
+          <Responses />
+       
+      
       <View style={styles.quizzButton}> 
         <TouchableOpacity>
-          <Text> Passer </Text>
+          <Text style={styles.quizzButtonText}> Passer </Text>
         </TouchableOpacity>
         <TouchableOpacity>
           <Text> Suivant </Text>
@@ -75,19 +55,28 @@ const styles = StyleSheet.create({
 
   quizzContainer:{
     padding: 12,
-    height: '100%'
+    height: '100%',
+    alignContent:'center',
+    flexDirection: 'column',
+    justifyContent: 'space-between'
   },
-  quizzQuestion: {
-    marginVertical: 16,
-  },
+  
   quizzResponses:{
     marginVertical: 16,
     flex:1,
+    
   },
+
+
   quizzButton: {
     marginBottom: 12,
     paddingVertical:16,
     justifyContent: 'space-between',
     flexDirection: 'row',
+    
+  },
+
+  quizzButtonText: {
+    color: '#fff'
   }
 })

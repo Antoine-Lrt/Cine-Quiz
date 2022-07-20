@@ -10,7 +10,8 @@ import MyNavigation from './src/navigation/navigation'
 const App = () => {
   return (
       <NavigationContainer>
-        <MyNavigation />
+        <MyNavigation 
+        />
       </NavigationContainer>
   )
 }
