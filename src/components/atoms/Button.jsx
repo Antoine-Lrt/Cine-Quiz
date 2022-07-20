@@ -1,8 +1,12 @@
-import { View, Text } from 'react-native'
+import { StyleSheet, Text } from 'react-native'
 import AwesomeButton from "react-native-really-awesome-button";
 import React from 'react'
+import { useNavigation } from '@react-navigation/native'
 
-const Button = ({navigation }) => {
+function Button ({screenName})  {
+
+    const navigation = useNavigation();
+
     return (
         <AwesomeButton
             width={200}
@@ -14,9 +18,11 @@ const Button = ({navigation }) => {
             textColor={'#FFF'}
             borderColor={'#9b0c1f'}
             borderWidth={10}
-            onPress={()=> navigation.navigate('Quiz')}        
+            onPress= {()=> navigation.navigate(screenName)}
+            style={styles.button}
+                  
             >
-                JOUER
+                <Text style={styles.buttonText}> Jouer </Text>
             </AwesomeButton>
             
             
@@ -24,3 +30,13 @@ const Button = ({navigation }) => {
     }
 
 export default Button
+
+const styles = StyleSheet.create({
+
+    buttonText: {
+        fontSize: 30,
+        color: '#FFF',
+        fontFamily: 'Arial Rounded MT Bold'
+
+    }
+  })

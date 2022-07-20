@@ -1,6 +1,6 @@
 import React  from 'react'
 import { useEffect, useState } from 'react'
-import { StyleSheet, Text, View, TouchableOpacity, Image } from 'react-native'
+import { StyleSheet, Text, View, TouchableOpacity, ImageBackground } from 'react-native'
 import axios from 'axios'
 
 
@@ -14,17 +14,16 @@ const Quiz = ({navigation}) => {
       axios.get('https://opentdb.com/api.php?amount=10&category=11&type=multiple').then((res) => setQuestion(res.data));
     }, [])
   return (
-    <View style={styles.quizzContainer}>
+    
+        <ImageBackground style={ styles.imgBackground } 
+    resizeMode='cover' 
+    source={require('../../assets/images/background.png')}
+    >
+
+      <View style={styles.quizzContainer}>
 
 
-      {/* <View style={styles.imgcontainer}>
 
-        {questions.map((question)=>
-              <Text> question </Text>
-                
-                )}
-
-      </View> */}
 
 
       <View style={styles.quizzQuestion}>
@@ -58,12 +57,22 @@ const Quiz = ({navigation}) => {
         
       </View>
     </View>
+
+    </ImageBackground>
+
+
   )
 }
 
 export default Quiz
 
 const styles = StyleSheet.create({
+
+  imgBackground: {
+    flex: 1,
+    
+},
+
   quizzContainer:{
     padding: 12,
     height: '100%'

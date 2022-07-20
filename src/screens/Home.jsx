@@ -1,6 +1,7 @@
-import { StyleSheet, View, ImageBackground,  } from 'react-native'
+import { StyleSheet, View, ImageBackground} from 'react-native'
 import React from 'react'
 import Button from '../components/atoms/Button'
+
 
 
 
@@ -8,7 +9,7 @@ import Button from '../components/atoms/Button'
 const Home = () => {
 
   
-
+ 
 
   return (
     <ImageBackground style={ styles.imgBackground } 
@@ -18,14 +19,14 @@ const Home = () => {
 
     <View style={styles.homeContainer}>
 
-        <Button />
+    
+        <Button 
+          screenName={'Wheel'}
+        />
 
     </View>
 
     </ImageBackground>
-
-        
-
 
   )
 }
@@ -47,14 +48,5 @@ const styles = StyleSheet.create({
     flex: 1,
     
 },
-    
-  // homeImg: {
-  //   width: 300,
-  //   height: 400,
-  //   resizeMode: 'contain',
-  //   marginBottom: 100,
-  // },
-
-  
-
+      
 })
