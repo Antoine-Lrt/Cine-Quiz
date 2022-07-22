@@ -3,13 +3,11 @@ import AwesomeButton from "react-native-really-awesome-button";
 import React from 'react'
 
 
-function ButtonResponse ({text})  {
+function ButtonResponse ({text, style})  {
 
     
 
     return (
-
-       
 
         <AwesomeButton
             width={'100%'}
@@ -19,8 +17,7 @@ function ButtonResponse ({text})  {
             backgroundActive={'#ffbd16'}
             backgroundDarker={'#db9d00'}
             textColor={'#bf8900'} 
-            style={styles.buttonQuestion} 
-                
+            style={styles.buttonQuestion}   
             >
 
              {text} 

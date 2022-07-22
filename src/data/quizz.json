@@ -9,7 +9,7 @@
         "Leia"
       ],
       "question": "Qui est le padawan du chevalier et maître Jedi Obi-Wan Kenobi ?",
-      "réponse": "Anakin Skywalker"
+      "response": "Anakin Skywalker"
     },
     {
       "anecdote": "Yoda est présent dans cinq épisodes sur ceux que compte actuellement la saga (I, II, III, V, VI).",
@@ -21,7 +21,7 @@
         "Anakin Skywalker"
       ],
       "question": "Quel petit bonhomme vert a enseigné à Luke comment utiliser la Force ?",
-      "réponse": "Yoda"
+      "response": "Yoda"
     },
     {
       "anecdote": "L'Ordre Jedi est dirigé par le Conseil Jedi, qui se réunit sur la planète Coruscant.",
@@ -33,7 +33,7 @@
         "Table ronde"
       ],
       "question": "Dans la saga « Star Wars », quels chevaliers se battent avec des sabres lasers ?",
-      "réponse": "Jedi"
+      "response": "Jedi"
     },
     {
       "anecdote": "L'Étoile noire et l'Étoile de la mort sont deux stations spatiales sidérales mobiles de la taille d'une lune.",
@@ -45,7 +45,7 @@
         "La Lune obscure"
       ],
       "question": "De quelle station spatiale ennemie la princesse Leia apprend-elle les plans de construction ?",
-      "réponse": "L'Étoile Noire"
+      "response": "L'Étoile Noire"
     },
     {
       "anecdote": "Padmé Amidala Skywalker est née en 46 av. BY sur Naboo et morte en 19 av. BY sur Polis Massa.",
@@ -57,7 +57,7 @@
         "Obiwana"
       ],
       "question": "Personnage central de la saga « Star Wars », avec qui Anakin Skywalker se marie-t-il ?",
-      "réponse": "Sénatrice Padme"
+      "response": "Sénatrice Padme"
     },
     {
       "anecdote": "Après une course acharnée et très disputée, Anakin parviendra finalement à remporter la victoire.",
@@ -69,7 +69,7 @@
         "De acklay"
       ],
       "question": "Pour aider les Jedi a réparer leur vaisseau, Anakin doit gagner une course...",
-      "réponse": "De module"
+      "response": "De module"
     },
     {
       "anecdote": "Les chevaliers Jedi forment un ordre d'individus qui sont aptes à maîtriser la Force et qui l'utilisent uniquement pour faire le bien.",
@@ -81,7 +81,7 @@
         "La Force"
       ],
       "question": "Que contrôlent les Jedi qui les rendent très différents des simples humains ?",
-      "réponse": "La Force"
+      "response": "La Force"
     },
     {
       "anecdote": "Les siths sont les ennemis jurés des Jedi dont ils constituent une menace pour la République Galactique.",
@@ -93,7 +93,7 @@
         "Les friths"
       ],
       "question": "Quels puissants ennemis et « seigneurs » les Jedi pensent-ils avoir vaincu ?",
-      "réponse": "Les siths"
+      "response": "Les siths"
     },
     {
       "anecdote": "Han Solo est un contrebandier, pilote et ancien élève officier impérial qui a dû déserter pour sauver Chewbacca.",
@@ -105,7 +105,7 @@
         "Chewbacca"
       ],
       "question": "De qui la princesse Leia tombe-t-elle amoureuse dans la saga « Star Wars » ?",
-      "réponse": "Han Solo"
+      "response": "Han Solo"
     },
     {
       "anecdote": "« L'Attaque des clones » est l'un des premiers films à être tourné entièrement en numérique.",
@@ -117,7 +117,7 @@
         "Les Gungans"
       ],
       "question": "Quelle armée aidera les Jedi pour ensuite se retourner contre eux et les forces du mal ?",
-      "réponse": "L'armée des clones"
+      "response": "L'armée des clones"
     },
     {
       "anecdote": "Originaire de Naboo, Palpatine a été formé au côté obscur de la Force dès le plus jeune âge par son maître, Dark Plagueis.",
@@ -129,7 +129,7 @@
         "Valorum"
       ],
       "question": "Quel chancelier suprême est seigneur noir des Sith dans la série « Star Wars » ?",
-      "réponse": "Palpatine"
+      "response": "Palpatine"
     },
     {
       "anecdote": "Chewbacca fait partie du noyau de rebelles qui ont restauré la liberté dans la galaxie.",
@@ -141,7 +141,7 @@
         "Luke Skywalker"
       ],
       "question": "De qui Chewbacca, le plus célèbre des guerriers Wookie, est-il le co-pilote ?",
-      "réponse": "Han Solo"
+      "response": "Han Solo"
     },
     {
       "anecdote": "Dooku fut l'héritier d'une famille d'aristocrates et diplomates de Serenno à la fortune colossale.",
@@ -153,7 +153,7 @@
         "Il perd une main"
       ],
       "question": "Que se passe-t-il lorsqu'Anakin Skywalker affronte le compte Dooku la première fois ?",
-      "réponse": "Il perd une main"
+      "response": "Il perd une main"
     },
     {
       "anecdote": "En plus de sa réputation de sage, Windu est considéré comme l'un des meilleurs combattants au sabre laser de l'Ordre Jedi.",
@@ -165,7 +165,7 @@
         "Qui Go Jin"
       ],
       "question": "Parmi ces personnages de « Star Wars », qui dirige le conseil des Jedi avec Yoda ?",
-      "réponse": "Mace Windu"
+      "response": "Mace Windu"
     },
     {
       "anecdote": "Le personnage est interprété par Liam Neeson et doublé par Samuel Labarthe en France.",
@@ -177,7 +177,7 @@
         "Plo Koon"
       ],
       "question": "Quel maître Jedi d'Obi-Wan Kenobi sera finalement tué par Dark Maul ?",
-      "réponse": "Qui-Gon Jinn"
+      "response": "Qui-Gon Jinn"
     },
     {
       "anecdote": "Le personnage de Dark Maul fut créé par l'illustrateur Iain Mccaig pour Industrial Light et Magic.",
@@ -189,7 +189,7 @@
         "Dark Pantouf"
       ],
       "question": "Quel apprenti Sith Obi-Wan va-t-il tuer en vengeant la mort de son maître ?",
-      "réponse": "Dark Maul"
+      "response": "Dark Maul"
     },
     {
       "anecdote": "Le Faucon Millénium fut appelé « Millenium Condor » dans la version française du premier épisode produit.",
@@ -201,7 +201,7 @@
         "Faucon Millénium"
       ],
       "question": "Quel nom porte le vaisseau spatial du contrebandier Han Solo ?",
-      "réponse": "Faucon Millénium"
+      "response": "Faucon Millénium"
     },
     {
       "anecdote": "On apprendra plus tard qu'il échappe à la digestion du Gerand Sarlacc et qu'il reviendra dans l'histoire.",
@@ -213,7 +213,7 @@
         "Luke Skywalker"
       ],
       "question": "Qui tue Boba Fett, chasseur de primes connu pour son adresse à traquer sa proie ?",
-      "réponse": "Han Solo"
+      "response": "Han Solo"
     },
     {
       "anecdote": "Située dans la Bordure extérieure, cette planète désertique est le refuge des plus vils brigands de la galaxie.",
@@ -225,7 +225,7 @@
         "Dagobah"
       ],
       "question": "Sur quelle planète vit Anakin avant de partir rejoindre les Jedi ?",
-      "réponse": "Tatooine"
+      "response": "Tatooine"
     },
     {
       "anecdote": "L'origine de Boba Fett est donnée dans « L'Attaque des clones » : il est le « fils » du légendaire chasseur de primes Jango Fett.",
@@ -237,7 +237,7 @@
         "Jabba le Hutt"
       ],
       "question": "Quel célèbre chasseur de primes a été engagé par Dark Vador pour traquer Han Solo ?",
-      "réponse": "Boba Fett"
+      "response": "Boba Fett"
     },
     {
       "anecdote": "Dans la saga « Star Wars », Anakin Skywalker se fait remarquer par son fort taux de midi-chloriens.",
@@ -249,7 +249,7 @@
         "Chlorydrate"
       ],
       "question": "Une fois mesurée, quelle molécule permet de savoir si un individu peut être un Jedi ?",
-      "réponse": "Midi-chloriens"
+      "response": "Midi-chloriens"
     },
     {
       "anecdote": "Ce taux de midi-­chloriens est de plus supérieur à celui de Yoda, pourtant reconnu comme Grand Maître des Jedi.",
@@ -261,7 +261,7 @@
         "Plus de 5 000"
       ],
       "question": "Quel taux de cette molécule Anakin possède-t-il lorsque Qui-Gon l'analyse la première fois ?",
-      "réponse": "Plus de 20 000"
+      "response": "Plus de 20 000"
     },
     {
       "anecdote": "Seigneur Noir des Sith, il possédait un pouvoir inimaginable qui lui permettait de garder les gens en vie avec la Force.",
@@ -273,7 +273,7 @@
         "Dark Tyranus"
       ],
       "question": "Quel mystique de la connaissance est le maître de Dark Sidious ?",
-      "réponse": "Dark Plagueis"
+      "response": "Dark Plagueis"
     },
     {
       "anecdote": "Même s'il ne les a pas réalisés, George Luas a donné de très nombreuses directives à Irvin Kerschner et Richard Marquand.",
@@ -285,7 +285,7 @@
         "5 et 6"
       ],
       "question": "Lesquels de ces épisodes de « Star Wars » n'ont pas été réalisés par George Lucas ?",
-      "réponse": "5 et 6"
+      "response": "5 et 6"
     },
     {
       "anecdote": "La bataille de Yavin oppose l'Empire galactique aux Rebelles autour de la planète gazeuse Yavin.",
@@ -297,7 +297,7 @@
         "Bataille de Coruscant"
       ],
       "question": "À partir de quelle bataille peut-on mesurer la chronologie dans « Star Wars » ?",
-      "réponse": "Bataille de Yavin"
+      "response": "Bataille de Yavin"
     },
     {
       "anecdote": "Le fait que Dark Vador soit le père des jumeaux Luke Skywalker et Leia Organa constitue l'intrigue principale de la saga.",
@@ -309,7 +309,7 @@
         "L'avoir trahi"
       ],
       "question": "Que signifie la dernière phrase de Dark Vador avant de mourir : « Tu l'as déjà fait Luke » ?",
-      "réponse": "L'avoir sauvé"
+      "response": "L'avoir sauvé"
     },
     {
       "anecdote": "Lando Calrissian est devenu par la suite administrateur de la cité des Nuages, une colonie minière.",
@@ -321,7 +321,7 @@
         "Boba Fett"
       ],
       "question": "Contre qui Han Solo remporte-t-il le Faucon Millénium lors d'une partie de sabacc ?",
-      "réponse": "Lando Calrissian"
+      "response": "Lando Calrissian"
     },
     {
       "anecdote": "Dagobah, dans le secteur Sluis, est un monde de sombres marais, de bayous putrides et de forêts d'arbres tortueux.",
@@ -333,7 +333,7 @@
         "Naboo"
       ],
       "question": "Sur quelle planète Luke est-il parti pour apprendre à devenir un véritable Jedi ?",
-      "réponse": "Dagobah"
+      "response": "Dagobah"
     },
     {
       "anecdote": "Le règne de Palpatine s'achève dans l'épisode VI, à la fin duquel il est tué par Anakin Skywalker en l'an 4 ap. BY.",
@@ -345,7 +345,7 @@
         "Luke Skywalker"
       ],
       "question": "Dans « Star Wars », de George Lucas, qui tue le chancelier Palpatine alias Dark Sidious ?",
-      "réponse": "Dark Vador"
+      "response": "Dark Vador"
     },
     {
       "anecdote": "À l'origine nommée « La Guerre des étoiles », « Star Wars » est un univers de science-fiction créé par George Lucas en 1977.",
@@ -357,6 +357,368 @@
         "30 ans"
       ],
       "question": "Combien d'années séparent le premier épisode sorti en salle de l'épisode 3 ?",
-      "réponse": "28 ans"
+      "response": "28 ans"
+    },
+    {
+      "id": 31,
+      "question": "Quel poste tient Harry Potter dans son équipe de quidditch ?",
+      "options": [
+        "Attrapeur",
+        "Poursuiveur",
+        "Batteur",
+        "Lanceur"
+      ],
+      "response": "Attrapeur",
+      "anecdote": "Chaque équipe de quidditch possède sept joueurs chevauchant des balais volants."
+    },
+    {
+      "id": 32,
+      "question": "Dans quelle école de sorcellerie Harry Potter a-t-il suivi ses enseignements ?",
+      "options": [
+        "Oxford",
+        "West Point",
+        "Poudlard",
+        "Cambridge"
+      ],
+      "response": "Poudlard",
+      "anecdote": "Le directeur y enseigne à ses élèves la valeur du courage, de l'amitié, de la justice et de la vérité par son attitude et ses discours."
+    },
+    {
+      "id": 33,
+      "question": "À quelle adresse habite la famille Dursley dans la saga « Harry Potter » ?",
+      "options": [
+        "4 Privet Square",
+        "4 Privet Avenue",
+        "4 Privet Drive",
+        "4 Privet Road"
+      ],
+      "response": "4 Privet Drive",
+      "anecdote": "Dursley, le cousin d'Harry Potter, est un garçon indiscipliné, violent et colérique."
+    },
+    {
+      "id": 34,
+      "question": "Qui a succédé à Armando Dippet comme directeur de Poudlard dans « Harry Potter » ?",
+      "options": [
+        "Lord Voldemort",
+        "Severus Rogue",
+        "Ron Weasley",
+        "Albus Dumbledore"
+      ],
+      "response": "Albus Dumbledore",
+      "anecdote": "Albus Dumbledore, promu nouveau directeur, est entré à Poudlard en 1892, dans la maison Gryffondor."
+    },
+    {
+      "id": 35,
+      "question": "Quel est le nom de famille de Hermione dans la saga « Harry Potter » ?",
+      "options": [
+        "Granger",
+        "Greengrass",
+        "Grindelwald",
+        "Gaunt"
+      ],
+      "response": "Granger",
+      "anecdote": "Hermione est la meilleure amie d'Harry Potter et de Ron Weasley, et réside, durant sa scolarité, à Poudlard, à la maison Gryffondor."
+    },
+    {
+      "id": 36,
+      "question": "Dans la saga « Harry Potter », un Moldu est une personne née dans une famille...",
+      "options": [
+        "Sans magie",
+        "Sans secrets",
+        "Sans enfants",
+        "Sans argent"
+      ],
+      "response": "Sans magie",
+      "anecdote": "Chez les humains, les pouvoirs magiques sont héréditaires, transmis par des allèles dominants ou récessifs."
+    },
+    {
+      "id": 37,
+      "question": "Quel est le prénom du meilleur ami du jeune Harry Potter ?",
+      "options": [
+        "Sirius",
+        "Ron",
+        "Hagrid",
+        "Drago"
+      ],
+      "response": "Ron",
+      "anecdote": "Ron, qui a rencontré Harry à King's Cross, fait partie de la famille Weasley, une famille de sang-pur, qui réside au Terrier."
+    },
+    {
+      "id": 38,
+      "question": "Quelle actrice incarne Hermione Granger dans la saga « Harry Potter » ?",
+      "options": [
+        "Danielle Taylor ",
+        "Emma Watson",
+        "Zoë Wanamaker ",
+        "Maggie Smith "
+      ],
+      "response": "Emma Watson",
+      "anecdote": "Emma Watson est l'actrice la plus rentable de la décennie, en grande partie grâce à la saga « Harry Potter »."
+    },
+    {
+      "id": 39,
+      "question": "Dans « Harry Potter », quel titre Voldemort a-t-il décidé de porter ?",
+      "options": [
+        "Lord",
+        "Baron",
+        "Comte",
+        "Duc"
+      ],
+      "response": "Lord",
+      "anecdote": "Lord Voldemort est aussi appelé « Le Seigneur des Ténèbres » ou « Celui-Dont-On-Ne-Doit-Pas-Prononcer-Le-Nom »."
+    },
+    {
+      "id": 40,
+      "question": "Qui garde Azkaban, la prison des sorciers dans la saga « Harry Potter » ?",
+      "options": [
+        "Les détraqueurs",
+        "Les cerbères",
+        "Les épouvantards",
+        "Les goules"
+      ],
+      "response": "Les détraqueurs",
+      "anecdote": "Les détraqueurs sont considérés comme des créatures parmi les plus répugnantes de toutes celles qui existent."
+    },
+    {
+      "id": 41,
+      "question": "Quelle forme prend l'épouvantard de Ron dans la saga « Harry Potter » ?",
+      "options": [
+        "Un loup",
+        "Un scorpion",
+        "Un dragon",
+        "Une araignée"
+      ],
+      "response": "Une araignée",
+      "anecdote": "Dix-neuf ans après la chute de Voldemort, Ron et Hermione ont deux enfants : Rose et son frère cadet Hugo."
+    },
+    {
+      "id": 42,
+      "question": "Comment se prénomment les parents du jeune Harry Potter ?",
+      "options": [
+        "Olivia et Tom",
+        "Laurena et Victor",
+        "James et Lily",
+        "Hermione et Ron"
+      ],
+      "response": "James et Lily",
+      "anecdote": "La famille Potter est également un descendant d'Ignotus Peverell, le premier propriétaire de la convoitée cape d'Invisibilité."
+    },
+    {
+      "id": 43,
+      "question": "Quel acteur joue le rôle de Drago Malefoy dans « Harry Potter » ?",
+      "options": [
+        "Tom Felton",
+        "Robbie Coltrane",
+        "Rupert Grint",
+        "Jeff Rawle"
+      ],
+      "response": "Tom Felton",
+      "anecdote": "Tom Felton a, début 2007, commencé une carrière musicale sous le pseudonyme Feltbeats, réunissant 3 millions de fans sur Instagram."
+    },
+    {
+      "id": 44,
+      "question": "Quelle est la marque du balai de course utilisé par Harry Potter ?",
+      "options": [
+        "Comète 260",
+        "Nimbus 2000",
+        "Brossdur 5",
+        "Étoile Filante"
+      ],
+      "response": "Nimbus 2000",
+      "anecdote": "Dans l'univers « Harry Potter », les balais sont utilisés pour le transport des sorciers ainsi que pour le Quidditch."
+    },
+    {
+      "id": 45,
+      "question": "Quel est le nom du dragon appartenant à Hagrid dans la saga « Harry Potter » ?",
+      "options": [
+        "Crockdur",
+        "Norbert",
+        "Errol",
+        "Aragog"
+      ],
+      "response": "Norbert",
+      "anecdote": "Hagrid, né d'un humain et d'une géante, a été l'un des premiers personnages créés par J. K. Rowling."
+    },
+    {
+      "id": 46,
+      "question": "Qui est ministre de la magie dans la saga « Harry Potter » ?",
+      "options": [
+        "Cornelius Fudge",
+        "Lucius Malefoy",
+        "Ludovic Verpey",
+        "Albus Dumbledore"
+      ],
+      "response": "Cornelius Fudge",
+      "anecdote": "Cornelius Fudge est également nommé Cornelius Lafadaise dans la première édition de « Harry Potter à l'école des sorciers »."
+    },
+    {
+      "id": 47,
+      "question": "Quelle matière enseigne le Professeur Rogue dans la saga « Harry Potter » ?",
+      "options": [
+        "Potions",
+        "Métamorphose",
+        "Défense",
+        "Enchantement"
+      ],
+      "response": "Potions",
+      "anecdote": "Personnage sombre, orgueilleux, aigri et amer, Rogue a une personnalité complexe, ambiguë et quelque peu indéchiffrable."
+    },
+    {
+      "id": 48,
+      "question": "Quel est le prénom de Hagrid, le demi-géant de la saga « Harry Potter » ?",
+      "options": [
+        "Rubeus",
+        "Albus",
+        "Remus",
+        "Severus"
+      ],
+      "response": "Rubeus",
+      "anecdote": "Hagrid est garde-chasse et enseigne les Soins aux Créatures magiques depuis le tome 3 de la saga."
+    },
+    {
+      "id": 49,
+      "question": "Qui est professeur de soins aux créatures magiques dans la saga « Harry Potter » ?",
+      "options": [
+        "Albus Dumbledore",
+        "Severus Rogue",
+        "Mme Chourave",
+        "Hagrid"
+      ],
+      "response": "Hagrid",
+      "anecdote": "Rubeus Hagrid, membre de l'Ordre du Phénix depuis son origine, est interprété au cinéma par Robbie Coltrane."
+    },
+    {
+      "id": 50,
+      "question": "Qui a offert le très performant Nimbus 2000 à Harry Potter ?",
+      "options": [
+        "M. McGonagall",
+        "D. Malefoy",
+        "S. Rogue",
+        "A. Dumbledore"
+      ],
+      "response": "M. McGonagall",
+      "anecdote": "Minerva McGonagall est directrice de Poudlard et également professeur de métamorphose."
+    },
+    {
+      "id": 51,
+      "question": "Quelle est la formule du sortilège de mort dans la saga « Harry Potter » ?",
+      "options": [
+        "Machina Fino",
+        "Avada Kedavra ",
+        "Mortibus Rem",
+        "Post Mortem "
+      ],
+      "response": "Avada Kedavra ",
+      "anecdote": "L'Avada Kedavra provoque la mort instantanée, dans un éclair de lumière verte et un bruit semblable à une rafale de vent."
+    },
+    {
+      "id": 52,
+      "question": "Quels prénoms portent les jumeaux Weasley dans « Harry Potter » ?",
+      "options": [
+        "Charlie et Bill",
+        "Fred et George",
+        "Lou et Cédric",
+        "Bill et George"
+      ],
+      "response": "Fred et George",
+      "anecdote": "L'ambition des jumeaux a toujours été d'ouvrir un magasin de farces et attrapes pour vendre certaines de leurs inventions."
+    },
+    {
+      "id": 53,
+      "question": "Dans la saga « Harry Potter », qui est le prince de sang mêlé ?",
+      "options": [
+        "Voldemort",
+        "Dumbledore",
+        "Severus Rogue",
+        "Drago Malefoy"
+      ],
+      "response": "Severus Rogue",
+      "anecdote": "Le rôle de Severus Rogue dans l'intrigue est difficile à interpréter pour le lecteur qui est fréquemment entraîné sur de fausses pistes."
+    },
+    {
+      "id": 54,
+      "question": "À qui Harry Potter doit-il sa cicatrice obtenue suite à un sortilège de la Mort ?",
+      "options": [
+        "Ron",
+        "Professeur Lupin",
+        "Voldemort",
+        "James Potter"
+      ],
+      "response": "Voldemort",
+      "anecdote": "Harry Potter porte des lunettes rondes à monture noire et une fine cicatrice en forme d'éclair sur le front."
+    },
+    {
+      "id": 55,
+      "question": "Quelle boisson sert-on principalement aux « Trois balais » dans « Harry Potter » ?",
+      "options": [
+        "Le vinausucre",
+        "La bièraubeurre",
+        "Le sodalamenthe",
+        "Le laitpinard"
+      ],
+      "response": "La bièraubeurre",
+      "anecdote": "La bièraubeurre, servie bien fraîche aux Trois balais, est la boisson la plus célèbre dans le monde des sorciers."
+    },
+    {
+      "id": 56,
+      "question": "Comment se prénomme la mère de Drago Malefoy dans « Harry Potter » ?",
+      "options": [
+        "Dolores",
+        "Lily",
+        "Narcissa",
+        "Bellatrix"
+      ],
+      "response": "Narcissa",
+      "anecdote": "Les Malefoy et les Black sont parents par le mariage de Narcissa et de Lucius, où le jeune Drago est l'unique héritier."
+    },
+    {
+      "id": 57,
+      "question": "À Poudlard, à quel étage se trouve la salle sur demande ?",
+      "options": [
+        "Septième étage",
+        "Vingtième étage",
+        "Onzième étage",
+        "Deuxième étage"
+      ],
+      "response": "Septième étage",
+      "anecdote": "Un grand nombre de passages dissimulés, d'escaliers et de portraits de peinture mouvants rendent l'établissement assez mystérieux."
+    },
+    {
+      "id": 58,
+      "question": "Quel est le premier cadeau de Noël que Hagrid a offert à Harry Potter ?",
+      "options": [
+        "Flûte",
+        "Chouette",
+        "Clé",
+        "Baguette"
+      ],
+      "response": "Flûte",
+      "anecdote": "Hagrid, membre de l'ordre du Phénix, fut élève à Poudlard, dans la maison Gryffondor, où il arriva en 1940."
+    },
+    {
+      "id": 59,
+      "question": "Quel est le signe zodiacal du jeune Harry Potter, né en 1980 ?",
+      "options": [
+        "Balance",
+        "Taureau",
+        "Vierge",
+        "Lion"
+      ],
+      "response": "Lion",
+      "anecdote": "Harry James Potter est né le 31 juillet 1980 et a donc le même jour d'anniversaire que J. K. Rowling."
+    },
+    {
+      "id": 60,
+      "question": "En quoi se transforme Peter Pettigrow dans « Harry Potter » ?",
+      "options": [
+        "En rat",
+        "En chat",
+        "En poisson",
+        "En serpent"
+      ],
+      "response": "En rat",
+      "anecdote": "Peter Pettigrow est un sorcier né en 1960, responsable de la mort de Lily et James Potter."
     }
+    
+  
   ]

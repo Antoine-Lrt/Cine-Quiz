@@ -1,6 +1,6 @@
 import React  from 'react'
 import { StyleSheet, Text, View, TouchableOpacity, ImageBackground } from 'react-native'
-import Quizz from '../components/organisms/Quizz'
+import QuestionResponse from '../components/organisms/QuestionResponse'
 
 
 const Quiz = ({navigation}) => {
@@ -15,7 +15,7 @@ const Quiz = ({navigation}) => {
 
       <View style={styles.quizzContainer}>
 
-      <Quizz />
+      <QuestionResponse />
       
       <View style={styles.quizzButton}> 
         <TouchableOpacity>
