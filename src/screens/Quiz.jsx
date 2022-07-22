@@ -1,14 +1,11 @@
 import React  from 'react'
-import axios from 'axios'
-import { useEffect, useState } from 'react'
 import { StyleSheet, Text, View, TouchableOpacity, ImageBackground } from 'react-native'
-import Questions from '../components/atoms/Questions'
-import Responses from '../components/molecules/Responses'
+import Quizz from '../components/organisms/Quizz'
 
 
 const Quiz = ({navigation}) => {
 
-    
+    console.log('Hey')
   return (
     
         <ImageBackground style={ styles.imgBackground } 
@@ -18,10 +15,7 @@ const Quiz = ({navigation}) => {
 
       <View style={styles.quizzContainer}>
 
-      
-          <Questions />
-          <Responses />
-       
+      <Quizz />
       
       <View style={styles.quizzButton}> 
         <TouchableOpacity>

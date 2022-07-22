@@ -1,16 +1,13 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import ButtonResponse from '../atoms/ButtonResponse'
+import data from '../../data/TestQuizz.json'
 
-const Responses = () => {
+
+const Responses = ({text}) => {
   return (
     <View style={styles.questionsContainer}>
-
-        <ButtonResponse text={'Colin Farrell'} />
-        <ButtonResponse text={'Ewan McGregor'} />
-        <ButtonResponse text={'Edward Norton'} />
-        <ButtonResponse text={'Jim Carrey'} />
-
+            <ButtonResponse text={text} />
     </View>
   )
 }
