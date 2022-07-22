@@ -8,7 +8,11 @@ import data from '../../data/quizz.json'
 
 function QuestionResponse(){
     const allQuestions = data;
-    const [currentQuestionIndex, setCurrentQuestionIndex] = useState(47);
+    const randomNumber = (min, max) => {
+      return Math.floor(Math.random() * (max - min + 1)) + min;
+    } 
+
+    const [currentQuestionIndex, setCurrentQuestionIndex] = useState((randomNumber(0, 50)));
     const [currentOptionSelect, setCurrentOptionSelect] = useState(null);
     const [goodtOption, setGoodOption] = useState(null);
     const [OptionDisable, setOptionDisable] =useState(false);
@@ -63,7 +67,7 @@ function QuestionResponse(){
             ?'#1d5819'
             :options==currentOptionSelect
             ? '#7e1a16'
-            :'#ffedbf'}
+            :'#bf8900'}
             style={styles.buttonResponse}   
             >
 
