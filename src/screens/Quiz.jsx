@@ -17,7 +17,7 @@ const Quiz = ({navigation}) => {
 
       <QuestionResponse />
       
-      <View style={styles.quizzButton}> 
+      {/* <View style={styles.quizzButton}> 
         <TouchableOpacity>
           <Text style={styles.quizzButtonText}> Passer </Text>
         </TouchableOpacity>
@@ -29,7 +29,7 @@ const Quiz = ({navigation}) => {
         </TouchableOpacity> 
 
         
-      </View>
+      </View> */}
     </View>
 
     </ImageBackground>
@@ -52,7 +52,8 @@ const styles = StyleSheet.create({
     height: '100%',
     alignContent:'center',
     flexDirection: 'column',
-    justifyContent: 'space-between'
+    justifyContent: 'space-between',
+
   },
   
   quizzResponses:{

@@ -1,8 +1,10 @@
-import { StyleSheet, View, Text } from 'react-native'
+import { StyleSheet, View, Text, SafeAreaView } from 'react-native'
 import React, { useEffect, useState } from 'react'
 // import ButtonResponse from '../atoms/ButtonResponse';
 import AwesomeButton from "react-native-really-awesome-button";
 import data from '../../data/quizz.json'
+
+import NextQuestionButton from '../atoms/NextQuestionButton';
 
 
 
@@ -14,9 +16,11 @@ function QuestionResponse(){
 
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState((randomNumber(0, 50)));
     const [currentOptionSelect, setCurrentOptionSelect] = useState(null);
-    const [goodtOption, setGoodOption] = useState(null);
+    const [goodOption, setGoodOption] = useState(null);
     const [OptionDisable, setOptionDisable] =useState(false);
-    const [score, setScore] = useState(0)
+    const [score, setScore] = useState(0);
+    const [displayAnecdote, setAnecdote] = useState(false)
+    const [nextQuestion, setNextQuestion ] =useState(false);
 
 
     const valideOption = (optionChoice) => {
@@ -27,6 +31,9 @@ function QuestionResponse(){
       if(optionChoice == good_option){
           setScore(score+1)
       }
+          setAnecdote(true)
+
+          setNextQuestion(true)
     }
 
 
@@ -53,31 +60,33 @@ function QuestionResponse(){
             width={'100%'}
             height={70}
             borderRadius={100}
-            backgroundColor={options==goodtOption 
+            backgroundColor={options==goodOption 
+            ?'#51c436'
+            :options==currentOptionSelect
+            ? '#e5383b'
+            :'#f5ebe0'}
+            backgroundActive={options==goodOption 
             ?'#51c436'
             :options==currentOptionSelect
             ? '#d62c26'
-            :'#ffedbf'}
-            backgroundActive={options==goodtOption 
-            ?'#51c436'
-            :options==currentOptionSelect
-            ? '#d62c26'
-            :'#ffedbf'}
-            backgroundDarker={options==goodtOption 
+            :'#bf8900Ò'}
+            backgroundDarker={options==goodOption 
             ?'#1d5819'
             :options==currentOptionSelect
             ? '#7e1a16'
-            :'#bf8900'}
+            :'#c7a794'}
             style={styles.buttonResponse}   
             >
 
             <Text 
               style={
-                {color: options==goodtOption 
+                {color: options==goodOption 
                 ?'#1d5819'
                 :options==currentOptionSelect
-                ? '#7e1a16'
-                :'#bf8900'
+                ? '#660708'
+                :'#b1a7a6',
+                fontWeight: 'bold',
+                fontSize: 15
                 } 
                 } 
                 
@@ -92,9 +101,43 @@ function QuestionResponse(){
       )
 
     }
+
+    const renderAnecdote = () => {
+      if(displayAnecdote){
+        return (
+          <View style={styles.anecdote}>
+            <Text style={styles.anecdoteTitle}>
+              Plus d'infos :
+            </Text>
+              
+            <Text style={styles.anecdoteText} >
+              {allQuestions[currentQuestionIndex]?.anecdote}
+            </Text>
+          </View>
+        )
+      }else{
+        return null
+      }   
+    }
+
+    const renderNextQuestion = () => {
+      if(nextQuestion){
+        return (
+          <View style={{width:'100%',alignItems: 'center'}}>
+            <NextQuestionButton />
+          </View>
+          
+        )
+      }else{
+        return null
+      }   
+    }
+
+
+    
   
   return (
-    <View style={styles.questionAndResponsesContainer}>
+    <SafeAreaView style={styles.questionAndResponsesContainer}>
       {/* QUESTION */}
 
       {renderQuestion()}
@@ -103,8 +146,17 @@ function QuestionResponse(){
 
       {renderOptions()}
 
+      {/* ANECDOTE  */}
+      
+      {renderAnecdote()}
+
+      {/* NEXT QUESTION BUTTON */}
+      
+
+      {renderNextQuestion()}
+
  
-    </View>
+    </SafeAreaView>
   )
 }
 
@@ -114,7 +166,7 @@ const styles = StyleSheet.create({
 
   // ALL STYlE 
   questionAndResponsesContainer: {
-    marginTop: 100
+    marginTop: 100,
   },
 
   // QUESTION STYLE 
@@ -133,9 +185,36 @@ const styles = StyleSheet.create({
 
     buttonResponse:{
       marginTop: 20,
-      marginBottom: 20,
       alignItems: "center"
   },
+
+  // ANECDOTE 
+
+  anecdote:{
+    alignItems: 'center',
+    marginTop: 20,
+
+  },
+
+  anecdoteTitle :{
+    color: '#FFF',
+    fontSize: 17,
+    fontWeight: 'bold',
+    marginTop: 30,
+    
+  },
+
+   anecdoteText: {
+    color: '#FFF',
+    fontSize: 15,
+    fontStyle: "italic",
+    fontWeight: '500',
+    marginTop: 10,
+    marginBottom: 10,
+   }
+
+  //  NEXT QUESTION BUTTON 
+
 
 
 })

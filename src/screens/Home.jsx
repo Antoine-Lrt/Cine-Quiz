@@ -1,6 +1,6 @@
 import { StyleSheet, View, ImageBackground} from 'react-native'
 import React from 'react'
-import ButtonHome from '../components/atoms/ButtonHome'
+import HomeButton from '../components/atoms/HomeButton'
 
 
 
@@ -20,7 +20,7 @@ const Home = () => {
     <View style={styles.homeContainer}>
 
     
-        <ButtonHome 
+        <HomeButton 
           screenName={'Quiz'}
         />
 
