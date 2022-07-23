@@ -3,6 +3,7 @@ import { StyleSheet, Text, View, TouchableOpacity, ImageBackground } from 'react
 import QuestionResponse from '../components/organisms/QuestionResponse'
 
 
+
 const Quiz = ({navigation}) => {
 
     console.log('Hey')
@@ -15,21 +16,10 @@ const Quiz = ({navigation}) => {
 
       <View style={styles.quizzContainer}>
 
+     
+
       <QuestionResponse />
       
-      {/* <View style={styles.quizzButton}> 
-        <TouchableOpacity>
-          <Text style={styles.quizzButtonText}> Passer </Text>
-        </TouchableOpacity>
-        <TouchableOpacity>
-          <Text> Suivant </Text>
-        </TouchableOpacity>
-        <TouchableOpacity onPress={()=> navigation.navigate("Results")}>
-          <Text> Fin </Text>
-        </TouchableOpacity> 
-
-        
-      </View> */}
     </View>
 
     </ImageBackground>

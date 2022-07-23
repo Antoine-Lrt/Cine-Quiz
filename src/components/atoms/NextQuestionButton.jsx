@@ -3,7 +3,7 @@ import AwesomeButton from "react-native-really-awesome-button";
 import React from 'react'
 
 
-function NextQuestionButton ({text, style})  {
+function NextQuestionButton ({action})  {
 
     
 
@@ -16,6 +16,7 @@ function NextQuestionButton ({text, style})  {
             backgroundColor={'#F6F6F4'}
             backgroundActive={'#F6F6F4'}
             backgroundDarker={'#E3D5CA'}
+            onPress={action}
             style={styles.buttonNextQuestion}   
             >
                 <Text style={styles.buttonNextQuestionText} >

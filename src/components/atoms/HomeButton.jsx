@@ -3,7 +3,7 @@ import AwesomeButton from "react-native-really-awesome-button";
 import React from 'react'
 import { useNavigation } from '@react-navigation/native'
 
-function ButtonHome ({screenName})  {
+function HomeButton ({screenName})  {
 
     const navigation = useNavigation();
 
@@ -29,7 +29,7 @@ function ButtonHome ({screenName})  {
       );
     }
 
-export default ButtonHome
+export default HomeButton
 
 const styles = StyleSheet.create({
 
