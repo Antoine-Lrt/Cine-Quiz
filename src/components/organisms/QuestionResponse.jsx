@@ -1,6 +1,5 @@
 import { StyleSheet, View, Text, SafeAreaView } from 'react-native'
 import React, { useEffect, useState } from 'react'
-import { DevSettings } from 'react-native';
 // import ButtonResponse from '../atoms/ButtonResponse';
 import AwesomeButton from "react-native-really-awesome-button";
 import data from '../../data/quizz.json'
@@ -9,20 +8,41 @@ import NextQuestionButton from '../atoms/NextQuestionButton';
 
 
 
+
 function QuestionResponse(){
     const allQuestions = data;
+
     const randomNumber = (min, max) => {
       return Math.floor(Math.random() * (max - min + 1)) + min;
     } 
-
-    const [currentQuestionIndex, setCurrentQuestionIndex] = useState(1);
+    
+    
+    const [currentQuestionIndex, setCurrentQuestionIndex] = useState(randomNumber(0, 50));
     const [currentOptionSelect, setCurrentOptionSelect] = useState(null);
     const [goodOption, setGoodOption] = useState(null);
     const [OptionDisable, setOptionDisable] =useState(false);
     const [score, setScore] = useState(0);
     const [displayAnecdote, setAnecdote] = useState(false)
     const [nextQuestion, setNextQuestion ] =useState(false);
-
+    
+    
+        // const randomFromArray = (myArray) => {
+        //   if(alreadyDone.length ===0) {
+        //     for (let i =0; i<myArray.length; i++) {
+        //       alreadyDone.push(i);
+        //     }
+    
+        //     const randomValueIndex = Math.floor(Math.random() * alreadyDone.length);
+            
+        //     const indexOfItemInMyArray = alreadyDone[randomValueIndex];
+    
+        //     alreadyDone.splice(randomValueIndex, 1);
+    
+            
+        //     return myArray[indexOfItemInMyArray];
+        //   }
+    
+        // }
 
     const valideOption = (optionChoice) => {
       const good_option = allQuestions[currentQuestionIndex]['response'];
@@ -37,30 +57,17 @@ function QuestionResponse(){
           setNextQuestion(true)
     }
 
-    const handleNextQuestion = () => {
-      if(currentQuestionIndex==currentQuestionIndex.length+1){
-              score
-      }else {
 
-        setCurrentQuestionIndex((randomNumber(0, 50)))
+    // Pour la V1 NOUS SOMME REDIRIGER A LA ROULLETTE POUR L'EQUIPE SUIVANTE
+    const handleNextQuestion = () => {
+   
+        // setCurrentQuestionIndex(randomNumber(0, 50))
         setCurrentOptionSelect(null);
         setGoodOption(null);
         setOptionDisable(null);
         setAnecdote(false)
         setNextQuestion(false)
-      }
-    //   }
-        
-      
-    //   if(currentQuestionIndex==currentQuestionIndex.length+1){
-
-    //   }else{
-    //     setCurrentQuestionIndex(allQuestions+1);
-    //     setCurrentOptionSelect(null);
-    //     setGoodOption(null);
-    //     setOptionDisable(null);
-    //     setNextQuestion(false)
-    //   }
+  
     }
 
 
@@ -73,7 +80,6 @@ function QuestionResponse(){
         </View>
       )
     }
-
 
     const renderOptions = () => {
       return(
@@ -151,7 +157,9 @@ function QuestionResponse(){
       if(nextQuestion){
         return (
           <View style={{width:'100%',alignItems: 'center'}}>
-            <NextQuestionButton action={handleNextQuestion}/>
+            <NextQuestionButton s
+                creenName={'Home'} 
+                text={'Équipe Suivante'}/>
           </View>
           
         )

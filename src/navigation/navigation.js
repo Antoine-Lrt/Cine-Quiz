@@ -3,6 +3,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import Home from '../screens/Home';
 import Quiz from '../screens/Quiz';
 import Results from '../screens/Results';
+import WheelPage from '../screens/WheelPage '
 
 
 
@@ -25,7 +26,15 @@ function MyNavigation() {
       <Stack.Screen 
             name="Results" 
             component={Results}
-            options={{headerShown: false}}   />
+            options={{headerShown: false}}   
+
+            />
+      <Stack.Screen 
+            name="WheelPage" 
+            component={WheelPage}
+            options={{headerShown: false}}   
+              
+            />
     </Stack.Navigator>
   );
 };

@@ -1,11 +1,12 @@
 import { StyleSheet, View , Text} from "react-native";
 import AwesomeButton from "react-native-really-awesome-button";
 import React from 'react'
+import { useNavigation } from '@react-navigation/native'
 
 
-function NextQuestionButton ({action})  {
+function NextQuestionButton ({screenName, text,})  {
 
-    
+    const navigation = useNavigation();
 
     return (
 
@@ -16,11 +17,11 @@ function NextQuestionButton ({action})  {
             backgroundColor={'#F6F6F4'}
             backgroundActive={'#F6F6F4'}
             backgroundDarker={'#E3D5CA'}
-            onPress={action}
+            onPress= {()=> navigation.navigate(screenName)}
             style={styles.buttonNextQuestion}   
             >
                 <Text style={styles.buttonNextQuestionText} >
-                    Suivante
+                    {text}
                 </Text>
             </AwesomeButton>
 

@@ -21,7 +21,8 @@ const Home = () => {
 
     
         <HomeButton 
-          screenName={'Quiz'}
+          screenName={'WheelPage'}
+          text={'Jouer'}
         />
 
     </View>

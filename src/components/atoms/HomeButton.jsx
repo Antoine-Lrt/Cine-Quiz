@@ -3,7 +3,7 @@ import AwesomeButton from "react-native-really-awesome-button";
 import React from 'react'
 import { useNavigation } from '@react-navigation/native'
 
-function HomeButton ({screenName})  {
+function HomeButton ({screenName, text})  {
 
     const navigation = useNavigation();
 
@@ -22,7 +22,7 @@ function HomeButton ({screenName})  {
             style={styles.button}
                   
             >
-                <Text style={styles.buttonText}> Jouer </Text>
+                <Text style={styles.buttonText}> {text} </Text>
             </AwesomeButton>
             
             
